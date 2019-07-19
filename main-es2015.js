@@ -277,7 +277,7 @@ __webpack_require__.r(__webpack_exports__);
 let HttpService = class HttpService {
     constructor(http) {
         this.http = http;
-        this.prefix = 'http://lun-test-task.appspot.com/';
+        this.prefix = 'https://lun-test-task.appspot.com/';
     }
     getAdvertisements(page = 1, itemsPerPage = 21, district = '', search = '', priceLower = '', priceUpper = '', roomsCount = '', sort = 'time__desc') {
         if (roomsCount === null) {

@@ -283,7 +283,7 @@ __webpack_require__.r(__webpack_exports__);
 var HttpService = /** @class */ (function () {
     function HttpService(http) {
         this.http = http;
-        this.prefix = 'http://lun-test-task.appspot.com/';
+        this.prefix = 'https://lun-test-task.appspot.com/';
     }
     HttpService.prototype.getAdvertisements = function (page, itemsPerPage, district, search, priceLower, priceUpper, roomsCount, sort) {
         if (page === void 0) { page = 1; }
